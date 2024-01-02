@@ -1,3 +1,6 @@
+# Docker
+Dockerfile
+
 # compiled output
 /dist
 /node_modules
@@ -14,6 +17,7 @@ lerna-debug.log*
 .DS_Store
 
 # Tests
+/test
 /coverage
 /.nyc_output
 
@@ -34,5 +38,5 @@ lerna-debug.log*
 !.vscode/extensions.json
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
-!.elasticbeanstalk/config.yml
+!.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
